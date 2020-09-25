@@ -16,12 +16,12 @@
 	bottom: 3%;
 }
 .item img {
-	height: 100vh;
+	height: 80vh;
 	width: auto;
 }
 .textCarousel {
 	position: absolute;
-	bottom: 15%;
+	bottom: 18%;
 	left: 5%;
 	font-size: 35px;
 	color: white;
@@ -159,7 +159,7 @@ a {
 
 /*reponsive*/
 
-@media only screen and (max-width: 1000px) {	/*khi màn hình nhỏ hơn 1000px thì chạy đoạn dưới*/
+@media only screen and (max-width: 992px) {	/*khi màn hình nhỏ hơn 1000px thì chạy đoạn dưới*/
   .khamPhaDiaDiem1 , .khamPhaDiaDiem2, .khamPhaDiaDiem3 {
   	display: none;
   }

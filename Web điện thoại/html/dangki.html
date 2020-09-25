@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- <script>
+function myFunction() {
+document.getElementById("danh").innerHTML = "Bạn đã đăng kí thành công!";
+}
+</script> -->
+
+	<link rel="shortcut icon" type="image/x-icon" href="../img/icon.jpg">
+	<link rel="icon" href="img_icon.gif" type="image/gif" sizes="25x25">
+
+	<title>dangki</title>
+
+
+
+
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/lazada.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<style>
+	/* Make the image fully responsive */
+	.carousel-inner img {
+		width: 100%;
+		height: 100%;
+	}
+
+</style>
+
+</head>
+<body>
+	<div class="fixed-top">
+		<div class="row">
+			<div class="col-sm-4"><img src="../img/logocd.jpg" class="logo"></div>
+			<div class="col-sm-4"><h5>Cửa hàng điện thoại</h5> 
+				<h6>Chào mừng bạn đến với cửa hàng C&D</h6></div>
+				<div class="col-sm-4 av"><input type="search" id="search" placeholder="Search..." />
+					<!-- <button type="submit">search</button> -->
+					<button type="submit"><i class="fa fa-search"></i></button> </div>
+				</div>
+
+				<ul class="nav">
+					<li class="nav-item">
+						
+						<div class="dropup">
+							<button class="dropbtn"><a class="nav-link" href="trangchu.html">Trang chủ</a></button>
+							<div class="dropup-content">
+								<a href="Samsung.html">Samsung</a>
+								<a href="oppo.html">Oppo</a>
+								<a href="iphone.html">iphone</a>
+								<a href="dangnhap.html">Đăng nhập</a>
+								<a href="dangki.html">Đăng kí</a>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="samsung.html">Samsung</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="oppo.html">Oppo</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="iphone.html">iphone</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="dangnhap.html">Đăng nhập</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="dangki.html"><font color="red">Đăng kí</font></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="gioithieu.html">Giới thiệu</a>
+					</li>
+				</ul>
+
+			</div>	
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+
+
+<h1>
+		<center>
+			<font color="#3C623E">
+				ĐĂNG KÍ THÀNH VIÊN
+			</font>
+		</center>
+	</h1>
+	<table border="1" bgcolor="#CCEDFF" align="center">
+		<tr>
+			<td> <font color="green">Họ và tên</font></td>
+			<td><input type="text" placeholder="Nhập tên của bạn" name="Trương Công Danh" id="ht"></td>
+		</tr>
+		<tr>
+			<td> <font color="green">Mật khẩu</font></td>
+			<td><input type="password" placeholder="Nhập mật khẩu" name="07 Nguyễn Gia Trí Đà Nẵng" id="mk"></td>
+		</tr>
+		<tr>
+			<td> <font color="green">Xác nhận mật khẩu</font></td>
+			<td><input type="password" placeholder="Nhập lại mật khẩu" name="0366028473" id="xnmk"></td>
+		</tr>
+		<tr>
+			<td> <font color="green">Số điện thoại</font></td>
+			<td><input type="text" placeholder="Bạn cần khi quên mk" name="Trương Công Danh" id="sdt"></td>
+		</tr>
+		
+
+<tr>
+			<td align="center" colspan="2"> 
+			<input type="submit" value="Đăng kí" id="dk"> 
+				<!-- <p id="danh" > </p> --> </td> 
+				
+		</tr>
+
+
+
+
+	</table>
+
+
+<script >
+	$(document).ready(function() {
+		$("#dk").on("click",function () {
+			
+			var ht = $("#ht").val();
+			var mk = $("#mk").val();
+			var xnmk = $("#xnmk").val();
+			var sdt = $("#sdt").val();
+
+			if ((ht=="")||(mk=="")||(xnmk=="")||(sdt=="")) {
+				alert("Vui lòng nhập đầy đủ thông tin!");
+			}else{
+				alert("Bạn đã đăng ký thành công");
+			}
+		})
+	});
+</script>
+
+</body>
+</html>
