@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sản Phẩm</title>
+</head>
+<link rel="stylesheet" href="../bootstrap-4.4.1-dist/css/bootstrap.min.css">
+<link href="../fontawesome-free-5.13.0-web/css/all.css">
+<link rel="stylesheet" href="../css/san_pham.css">
+<body>
+	<div class="container">
+		<div class="row">
+			<!-- menu -->
+			<div class="col-2 mt-5">
+				<div class="menu_sp p-3">
+		            <h5 class="danhmuc_sp">DANH MỤC</h5>
+	                <hr>                       
+	                <ul class="list-unstyled pb-3">
+	                    <li><a href="{{ route('trangChinh') }}"><i class="fas fa-utensils"></i> Ẩm Thực</a></li>
+	                        <hr>
+	                    <li><a href="{{ route('trangMonAn') }}"><i class="fas fa-heart"></i> Cưới Hỏi</a></li>
+	                        <hr>
+	                    <li><a href="{{ route('trangThucUong') }}"><i class="fas fa-gifts"></i> Văn Nghệ</a></li>
+	                        <hr>
+	                    <li><a href="{{ route('trangCompo') }}"><i class="fas fa-record-vinyl"></i> Trang Trí</a></li>
+	                        <hr>                   
+	                </ul>	
+	            </div>             	                   				    
+			</div>
+
+			<!-- sản phẩm -->
+			<div class="col-10 mt-5">
+				<div class="card">
+				  <div class="card-header head_sp">
+				    <h5>Sản Phẩm</h5>
+				  </div>
+				  <div class="card-body">
+				    <div class="row">
+				    	<!-- sản phẩm 1 -->
+				    	<div class="col-lg-4 col-sm-6">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <img style="background-image:url(../image/girl3.jpg); background-size:cover;" height="279px" width="100%">
+                                    	<ul>                                           
+                                            <li class="quick-view"><a href="#">+ Add Cart</a></li>
+                                            <li class="w-icon"><a href="#"><i class="fas fa-cart-plus fa-lg"></i></a></li>
+                                        </ul>
+                                </div>
+                                <div class="pi-text text-center pt-1">
+                                    <a href="#">
+                                        <h5>Pure Pineapple</h5>
+                                    </a>
+                                    <div class="product-price">
+                                        <h5>280,000đ</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+				    	<!-- sản phẩm 2 -->
+				    	<div class="col-lg-4 col-sm-6">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <img style="background-image:url(../image/minhon.jpeg); background-size:cover;" height="279px" width="100%">
+                                    	<ul>                                           
+                                            <li class="quick-view"><a href="#">+ Add Cart</a></li>
+                                            <li class="w-icon"><a href="#"><i class="fas fa-cart-plus fa-lg"></i></a></li>
+                                        </ul>
+                                </div>
+                                <div class="pi-text text-center pt-1">
+                                    <a href="#">
+                                        <h5>Converse Shoes</h5>
+                                    </a>
+                                    <div class="product-price">
+                                        <h5>320,000đ</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+				    	<!-- sản phẩm 3 -->
+				    	<div class="col-lg-4 col-sm-6">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <img style="background-image:url(../image/girl1.jpg); background-size:cover;" height="279px" width="100%">
+                                    	<ul>                                           
+                                            <li class="quick-view"><a href="#">+ Add Cart</a></li>
+                                            <li class="w-icon"><a href="#"><i class="fas fa-cart-plus fa-lg"></i></a></li>
+                                        </ul>
+                                </div>
+                                <div class="pi-text text-center pt-1">
+                                    <a href="#">
+                                        <h5>Guangzhou sweater</h5>
+                                    </a>
+                                    <div class="product-price">
+                                        <h5>240,000đ</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+				    	<!--  -->
+				    </div>
+
+
+				  </div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+
+
+<script src="../bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../fontawesome-free-5.13.0-web/js/all.js"></script>
+</body>
+</html>
